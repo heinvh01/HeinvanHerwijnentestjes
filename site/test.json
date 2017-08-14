@@ -1,0 +1,142 @@
+
+
+    Home
+    Create a Form
+    View Example Form
+
+angularjs-form-builder
+Create a new form
+
+    Select field type you want to add to the form below and click on 'Add Field' button. Don't forget to set field properties. After you finish creating the form, you can preview the form by clicking Preview Form button.
+
+Form Properties
+Form ID:
+Form Name:
+Fields
+Selecteer tool
+Field ID:
+1
+Field Type:
+dropdown
+Field Title:
+Field Default Value:
+Field Options:
+Value: 1
+Value: 2
+Value: 3
+Value: 4
+Required:
+  Yes
+  No
+Disabled:
+  Yes
+  No
+start date
+Field ID:
+2
+Field Type:
+date
+Field Title:
+Field Default Value:
+Required:
+  Yes
+  No
+Disabled:
+  Yes
+  No
+end date
+Field ID:
+3
+Field Type:
+date
+Field Title:
+Field Default Value:
+Required:
+  Yes
+  No
+Disabled:
+  Yes
+  No
+Ip/address to test
+Field ID:
+4
+Field Type:
+textfield
+Field Title:
+Field Default Value:
+Required:
+  Yes
+  No
+Disabled:
+  Yes
+  No
+
+
+Hide form json object
+
+Form object content:
+
+{
+  "form_id": 1,
+  "form_name": "Performance",
+  "form_fields": [
+    {
+      "field_id": 1,
+      "field_title": "Selecteer tool",
+      "field_type": "dropdown",
+      "field_value": "Performance",
+      "field_required": true,
+      "field_disabled": false,
+      "field_options": [
+        {
+          "option_id": 1,
+          "option_title": "Tsung",
+          "option_value": 1
+        },
+        {
+          "option_id": 2,
+          "option_title": "Jmeter",
+          "option_value": 2
+        },
+        {
+          "option_id": 3,
+          "option_title": "Grinder",
+          "option_value": 3
+        },
+        {
+          "option_id": 4,
+          "option_title": "Gatling",
+          "option_value": 4
+        }
+      ]
+    },
+    {
+      "field_id": 2,
+      "field_title": "start date",
+      "field_type": "date",
+      "field_value": "today",
+      "field_required": true,
+      "field_disabled": false
+    },
+    {
+      "field_id": 3,
+      "field_title": "end date",
+      "field_type": "date",
+      "field_value": "2 hours",
+      "field_required": true,
+      "field_disabled": false
+    },
+    {
+      "field_id": 4,
+      "field_title": "Ip/address to test",
+      "field_type": "textfield",
+      "field_value": "",
+      "field_required": true,
+      "field_disabled": false
+    }
+  ],
+  "submitted": false
+}
+
+Selman K. 2014 - angularjs-form-builder
+
